@@ -1,26 +1,26 @@
 require "pry"
 
 def create_an_empty_array
- animals = []
+ array = []
 end
 
 def create_an_array
-  animals = ["dog", "cat", "bird", "fish"]
+   array = ["wow", "I", "am", "really", "learning", "arrays!"]
 end
 
 def add_element_to_end_of_array(array, element)
-  animals = ["dog", "cat", "bird", "fish"]
-  animals << "arrays!"
+   array = ["wow", "I", "am", "really", "learning"]
+ array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  animals = ["dog", "cat", "bird", "fish"]
-  animals.unshift ("wow")
+   array = ["wow", "I", "am", "really", "learning", "arrays!"]
+   array.unshift ("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  animals = ["dog", "cat", "bird", "arrays!"]
-  animals.pop
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array.pop
 end
 
 
