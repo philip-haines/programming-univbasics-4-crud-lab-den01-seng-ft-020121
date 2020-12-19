@@ -20,7 +20,6 @@ end
 
 def remove_element_from_end_of_array(array)
   animals = ["dog", "cat", "bird", "fish"]
-  binding.pry
   animals.pop
 end
 
