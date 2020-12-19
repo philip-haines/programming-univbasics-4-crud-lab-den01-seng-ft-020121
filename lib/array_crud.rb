@@ -1,3 +1,5 @@
+require "pry"
+
 def create_an_empty_array
  animals = []
 end
@@ -18,8 +20,11 @@ end
 
 def remove_element_from_end_of_array(array)
   animals = ["dog", "cat", "bird", "fish"]
-  animals.pop("fish")
+  binding.pry
+  animals.pop
 end
+
+remove_element_from_end_of_array(array)
 
 def remove_element_from_start_of_array(array)
   
